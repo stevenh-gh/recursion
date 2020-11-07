@@ -15,4 +15,6 @@ def fibs_rec(num)
   fibs_rec(num - 1).push(fibs_rec(num - 1)[-1] + fibs_rec(num - 1)[-2])
 end
 
-p fibs_rec(99)
+def merge_sort(arr)
+  arr
+end
