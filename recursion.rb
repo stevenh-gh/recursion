@@ -12,9 +12,13 @@ def fibs_rec(num)
   return [1] if num == 1
   return [1, 1] if num == 2
 
-  fibs_rec(num - 1).push(fibs_rec(num - 1)[-1] + fibs_rec(num - 1)[-2])
+  fibarr = fibs_rec(num - 1)
+
+  fibarr.push(fibarr[-1] + fibarr[-2])
 end
 
 def merge_sort(arr)
   arr
 end
+
+p fibs_rec(500)
