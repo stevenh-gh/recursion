@@ -20,5 +20,3 @@ end
 def merge_sort(arr)
   arr
 end
-
-p fibs_rec(500)
