@@ -31,13 +31,13 @@ def merge(left, right)
 
       sorted << left[0]
 
-      left = left[1..-1]
+      left.shift
 
     elsif right[0] < left[0]
 
       sorted << right[0]
 
-      right = right[1..-1]
+      right.shift
 
     end
 
